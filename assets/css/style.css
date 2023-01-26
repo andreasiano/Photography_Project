@@ -1,0 +1,56 @@
+.container-md a {
+    font-family: 'Anton', sans-serif;
+    line-height: 1;
+    color: rgb(125, 97, 97);
+    text-transform: uppercase;
+}
+.container-md a:hover {
+  transition: 1s;
+}
+.navbar-nav a {
+    text-transform: none;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+.gallery {
+    padding: 150px 20px 50px;
+}
+img {
+    max-width: 100%;
+}
+.gallery img {
+    padding: 5px;
+    border-radius: 20px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Anton', sans-serif;
+  font-weight: 500;
+  font-size: calc(30px + (60 - 30) * ((100vw - 320px)/ (1600 - 320)));
+}
+.img-container {
+  position: relative;
+  transform: scale(1);
+  transition: 0.9s;
+}
+.img-overlay {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  border-radius: 15px;
+}
+.img-container > .img_link {
+  cursor: pointer;
+  color: white;
+}
+.img-container:hover {
+  transform: scale(1.05);
+  transition: transform 0.9s ease-in-out;
+}
