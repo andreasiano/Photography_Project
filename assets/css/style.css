@@ -1,10 +1,10 @@
-.container-md a {
+.container-md a, .container-fluid a {
     font-family: 'Anton', sans-serif;
     line-height: 1;
     color: rgb(125, 97, 97);
     text-transform: uppercase;
 }
-.container-md a:hover {
+.container-md a:hover, container-fluid a:hover {
   transition: 1s;
 }
 .navbar-nav a {
@@ -58,4 +58,18 @@ img {
 .img-container:hover {
   transform: scale(1.05);
   transition: transform 0.9s ease-in-out;
+}
+.about {
+  font-family: 'Cookie', cursive;
+  padding: 150px 50px 50px;
+  font-size: calc(25px + (35 - 25) * ((100vw - 320px)/ (1600 - 320)));
+}
+.about-img {
+  filter: grayscale(10);
+  border-radius: 10px;
+}
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 100px 15px 20px;
+  }
 }
