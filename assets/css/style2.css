@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .container-fluid a {
     font-family: 'Anton', sans-serif;
     line-height: 1;
@@ -39,4 +47,5 @@ footer {
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
   letter-spacing: 3px;
+  margin-top: auto;
 }

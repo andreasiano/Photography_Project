@@ -1,3 +1,11 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .container-md a, .container-fluid a {
     font-family: 'Anton', sans-serif;
     line-height: 1;
@@ -18,7 +26,7 @@
 }
 @media screen and (max-width: 768px){
   .gallery{
-    padding: 100px 5px 10px;
+    padding: 100px 5px 20px;
   }
 }
 img {
@@ -89,4 +97,5 @@ footer {
   font-family: 'Amatic SC', cursive;
   font-weight: 900;
   letter-spacing: 3px;
+  margin-top: auto;
 }
