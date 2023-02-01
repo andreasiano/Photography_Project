@@ -84,3 +84,9 @@ img {
     padding: 100px 15px 20px;
   }
 }
+footer {
+  background-color: rgb(125, 97, 97);
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
